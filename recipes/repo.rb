@@ -37,7 +37,7 @@ when "debian"
   when "ubuntu"
     distro_name = node['lsb']['codename']
     keyserver_url = "keyserver.ubuntu.com"
-    key_id = "E084DAB9"
+    key_id = "E298A3A825C0D65DFD57CBB651716619E084DAB9"
   else
     return "platform not supported"
   end
